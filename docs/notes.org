@@ -1,0 +1,13 @@
+* Vector Functions
+
+| dv                  | native? double vector on the CPU            |
+| xpy                 | x plus y                                    |
+| scal                | scale vector                                |
+| scal!               | destructive version avoid memory copy       |
+| axpy                | scalar a times vector x plus vector y       |
+| axpy!               | destructive version avoid memory copy       |
+| (dv 7)              | creates a 7 dimension zero vector           |
+| (zero v1)           | creates a zero vector of dimension = dim v1 |
+| (axpby! 1 v1 -1 v3) | vector subtraction                          |
+| dge                 | double valued matrix                        |
+|                     |                                             |
